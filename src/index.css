@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #16213E;
+  --secondary-color:#0F3460;
+  --buttton-color:#3d2069;
+  --text-color:#ffffff;
+}
+*{  
+  padding:0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background: var(--primary-color);
+  color: var(--text-color);
+
+}
+.mainbutton{
+  padding:1rem 3rem;
+  border:none;
+  background: var(--buttton-color);
+  font-size: 2rem;
+  cursor: pointer;
+  margin:10px;
+  border-radius: 5px;
+  color: var(--text-color);
+
+}
+.headdingflex{
+  display:flex;
+  color:var(--text-color);
+  justify-content: space-between;
+  
+}
+.headdingflex >h4{
+  margin:20px;
+}
+.headingtext{
+  margin:2rem;
+  text-align: center;
+}
+.divider{
+  background-color:#E94560;
+  height: 1rem;
+  margin:5rem 0rem;
+}
+
+input{
+border:none;
+outline:none;
+width:20rem;
+height:10rem;
+font-size: 90px;
+margin: 0px;
+text-align: center;
+
+}
+.buttomflex{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin:10px;
+
+}
+.notmatched{
+  color:red;
+}
+.matched{
+  color:green;
+}
+.initial{
+  color:yellow;
+}
+footer{
+  text-align: center;
+  background-color: #E80F88;
+  padding:20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
